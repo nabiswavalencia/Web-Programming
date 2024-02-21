@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+    background-image: url("Background.jpg");
+    background-attachment: fixed;
+}
+.top{
+  background-blend-mode:overlay;
+  background-image: url("topimage.jpg")  ;
+  background-color: rgb(56, 192, 250) ;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 105px;
+  position: relative;
+  text-align: center;
+  background-color: #007bff;
+  opacity: 0.7;
+}
+.top nav{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+}
+nav ol{
+   display: flex;
+   gap: 10px;
+   justify-content: space-around;
+   width: 80%;
+   position: relative;
+}
+.top img{
+    height: 70px;
+    width: 250px;
+    padding: 10px;
+}
+.centered{
+    color: aliceblue;
+}
+.centered h2{
+    font-weight: bolder;
+    font-size:xx-large;
+}
+.mmustAnthem{
+    display: flex;
+    gap: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    box-shadow: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 12px;
+    padding-bottom: 50px;
+    background-color: rgb(243, 247, 247);
+}
+.mmustAnthem img{
+    padding: 20px;
+
+}
+.mmustAnthem h3{
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+    font-weight: 300;
+    font-style: normal;
+}
+#Anthem{
+    font-size: large;
+    font-weight: lighter;
+    line-height: 0.75cm;
+    font-style: italic;
+}
+ol{
+    list-style: none;
+}
+
+/* Mission */
+.Mision{
+    display: flex;
+    gap: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    box-shadow: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 12px;
+    padding-bottom: 50px;
+    background-color: rgb(243, 247, 247);
+}
+.Mision #image{
+   padding:20px ;
+
+}
+#Vision{
+
+}
+.Philosophical{
+    padding: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    box-shadow: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 12px;
+    background-color: rgb(243, 247, 247);
+}
+footer{
+    display: flex;
+    background-color:#170535;
+    margin: 0;
+    color: gray;
+    justify-content: space-between;
+    height: 400px;
+    width: auto;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 200;
+}
+footer li:hover{
+    color: aliceblue;
+}
+footer h3{
+    color: aliceblue;
+}
